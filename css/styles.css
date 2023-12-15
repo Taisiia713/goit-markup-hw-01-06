@@ -61,7 +61,7 @@ button {
 .first-section {
     min-height: 432px;
     overflow-x: hidden;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images//retina/office-mobile1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/retina//office-mobile1.jpg);
     background-color: rgba(46, 47, 66, 0.70);
     background-position: center;
     background-size: cover;
@@ -73,13 +73,13 @@ button {
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .first-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/retina/office-mobile@2x.jpg)
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/retina/office-mobile@2x.jpg);
     }
 }
 
 @media screen and (min-width: 768px) {
     .first-section {
-        background-image: url(/images/retina/office-tablet1.jpg);
+        background-image: url(../images//retina/office-tablet1.jpg);
     }
 }
 
@@ -87,14 +87,14 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .first-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/retina/office-tablet@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/retina/office-tablet@2x.jpg);
     }
 }
 
 
 @media screen and (min-width: 1158px) {
     .first-section {
-        background-image: url(/images/retina/office-desktop_1.jpg)
+        background-image: url(../images//retina/office-desktop_1.jpg)
     }
 }
 
@@ -102,7 +102,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution: 2dppx) and (min-width: 1158px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     .first-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/retina/office-desktop_1@2x.jpg)
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/retina/office-desktop_1@2x.jpg)
     }
 }
 
@@ -1846,7 +1846,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     /* Section 1 laptop */
 
     .first-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/retina/office-desktop_1.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/retina//office-desktop_1.jpg);
     }
 
     .main-title {
