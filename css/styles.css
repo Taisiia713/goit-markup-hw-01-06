@@ -194,7 +194,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         right: 16px;
         width: 24px;
         height: 24px;
-        background-color: #e7e9fc;
+        background-color: #fff;
         border-radius: 50%;
         border: 1px solid rgba(0, 0, 0, 0.1);
         stroke-width: 1px;
@@ -203,11 +203,18 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         line-height: 0;
     }
 
+    .mobile-menu-wrapper {
+        padding-top: 72px;
+        padding-bottom: 40px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+
     .mobile-menu {
         display: flex;
         flex-direction: column;
         gap: 40px;
-        padding-top: 72px;
     }
 
     .mobile-menu-link {
@@ -218,6 +225,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .studio-mobile {
+        color: var(--OCEAN, #404BBF);
     }
 
     .mobile-menu-link:hover,
@@ -234,12 +245,22 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         display: flex;
         flex-direction: column;
         gap: 24px;
-        padding-top: 168px;
-        padding-bottom: 48px;
+        margin-top: auto;
+        margin-bottom: 48px;
     }
+
 
     .mobile-menu-address-link {
         color: var(--SLATE, #434455);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .mobile-tel {
+        color: var(--IRIS, #4D5AE5);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -258,9 +279,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
     .mobile-menu-social-list {
         display: flex;
-        padding-top: 48px;
-        padding-bottom: 40px;
         gap: 40px;
+        margin-top: 48px;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -285,16 +305,12 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
     /* Section 1 mobile */
 
-    .section {
-        padding-top: 96px;
-    }
-
     .first-section {
         padding-bottom: 72px;
+        padding-top: 72px;
     }
 
     .main-title {
-        width: 288px;
         color: var(--WHITE, #FFF);
         text-align: center;
         font-size: 36px;
@@ -327,14 +343,14 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     /* SEction 2 mobile */
 
     .section-second {
-        padding-top: 0;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .list-section-second {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        margin-bottom: 96px;
         width: 288px;
     }
 
@@ -351,7 +367,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 8px;
-        margin-top: 72px;
     }
 
     .text {
@@ -362,9 +377,15 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         letter-spacing: 0.02em;
     }
 
+    .list-items-section-two:not(:last-child) {
+        margin-bottom: 72px;
+    }
+
     /* 3 section mobile */
     .section-team {
         background: var(--CLOUD, #F4F4FD);
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .image-team-container {
@@ -374,7 +395,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         width: 264px;
         margin-right: auto;
         margin-left: auto;
-        padding-bottom: 72px;
     }
 
     .our-team {
@@ -465,6 +485,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
     /* Section 4 mobile */
 
+    .section-four {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
     .overlay {
         position: absolute;
         top: 0;
@@ -516,8 +541,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         overflow: hidden;
         width: calc((100% - 48px) / 3);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        margin-bottom: 48px;
         width: 288px;
+    }
+
+    .list-items-portfolio:not(:last-child) {
+        margin-bottom: 48px;
     }
 
     .list-items-portfolio:hover {
@@ -576,6 +604,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         text-align: center;
         padding-top: 98px;
         padding-bottom: 96px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .footer-logo {
@@ -607,8 +637,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         margin-top: 18px;
         margin-bottom: 72px;
         width: 288px;
-        margin-right: auto;
-        margin-left: auto;
         text-align: left;
     }
 
