@@ -147,9 +147,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         transform: translateX(0%);
     }
 
-    .mobile-menu-container {
-        position: relative;
-    }
 
     .list-header-nav-containers {
         display: none;
@@ -204,10 +201,16 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     }
 
     .mobile-menu-wrapper {
+        display: flex;
         padding-top: 72px;
         padding-bottom: 40px;
         padding-left: auto;
         padding-right: auto;
+    }
+
+    .mobile-menu-container {
+        display: flex;
+        flex-direction: column;
     }
 
 
