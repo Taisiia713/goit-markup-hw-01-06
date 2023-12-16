@@ -241,11 +241,14 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         text-transform: capitalize;
     }
 
+    .mobile-menu-contacts-container {
+        margin-top: auto;
+    }
+
     .mobile-menu-address {
         display: flex;
         flex-direction: column;
         gap: 24px;
-        margin-top: auto;
         margin-bottom: 48px;
     }
 
@@ -1023,14 +1026,25 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 24px;
-        padding-bottom: 22px;
     }
 
     .list-header-nav-containers {
         display: flex;
         gap: 40px;
         margin-left: 121px;
+    }
+
+    .header-nav-container {
+        align-items: baseline;
+    }
+
+    .header-list-items {
+        display: block;
+        margin-top: 24px;
+    }
+
+    .contacts-list {
+        font-style: normal;
     }
 
     .contacts-header-container {
@@ -1145,9 +1159,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     /* tablet header styles end  */
 
     /* 1 section tablet */
-    .section {
-        margin-bottom: 96px;
-    }
 
     .first-section {
         background-color: #2e2f42;
@@ -1188,6 +1199,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
     /* 2 section tablet */
 
+    .section-second {
+        padding-top: 96px;
+        padding-bottom: 102px;
+    }
+
     .div-icons-list {
         display: none;
     }
@@ -1195,10 +1211,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     .list-section-second {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         gap: 72px 24px;
         flex-wrap: wrap;
-        width: 736px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1229,6 +1243,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     /* section 3 tablet */
     .section-team {
         background-color: rgba(244, 244, 253, 1);
+        padding-top: 90px;
+        padding-bottom: 102px;
 
     }
 
@@ -1241,18 +1257,14 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
-        padding-top: 90px;
-
     }
 
     .image-team-container {
         display: flex;
         flex-wrap: wrap;
-        row-gap: 24px;
-        column-gap: 64px;
+        row-gap: 64px;
+        column-gap: 24px;
         justify-content: center;
-        width: 736px;
-        padding-bottom: 102px;
     }
 
     .team {
@@ -1333,6 +1345,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     }
 
     /* section 4 tablet */
+
+    .section-four {
+        padding-top: 90px;
+        padding-bottom: 96px;
+    }
 
     .div-overlay {
         position: relative;
@@ -1854,15 +1871,17 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
         display: flex;
         align-items: baseline;
         justify-content: space-between;
-        padding-top: 24px;
-        padding-bottom: 24px;
     }
 
     .contacts-header-container {
         display: flex;
         flex-direction: row;
         gap: 40px;
+        padding-top: 24px;
+    }
 
+    .header-list-items {
+        display: block;
     }
 
     .contacts-list,
@@ -1875,26 +1894,24 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/retina//office-desktop_1.jpg);
+        padding-top: 188px;
+        padding-bottom: 188px;
     }
 
     .main-title {
         margin-bottom: 48px;
-        margin-top: 188px;
-    }
-
-    .btn-order {
-        margin-bottom: 188px;
     }
 
     /* section 2 laptop */
 
     .section-second {
         display: flex;
+        padding-top: 96px;
+        padding-bottom: 102px;
     }
 
     .list-section-second {
         flex-wrap: nowrap;
-        width: 1158px;
     }
 
     .list-items-section-two {
@@ -1960,8 +1977,15 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     .all-footer {
         width: 1158px;
         flex-wrap: nowrap;
-        justify-content: space-between;
         gap: 0;
+    }
+
+    .footer-container {
+        margin-right: 120px;
+    }
+
+    .container-footer-social-links {
+        margin-right: 80px;
     }
 
     .footer-text {
